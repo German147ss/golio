@@ -11,7 +11,7 @@ import (
 )
 
 func TestNewClient(t *testing.T) {
-	client := NewClient("api_key",
+	client := NewClient("asdasdasd",
 		WithLogger(log.StandardLogger()),
 		WithRegion(api.RegionEuropeWest),
 		WithClient(http.DefaultClient))
